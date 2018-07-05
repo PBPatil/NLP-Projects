@@ -16,3 +16,21 @@ The goal of this competition is to predict which of the provided pairs of questi
 - __qid1, qid2__ - unique ids of each question (only available in train.csv)
 - __question1__, __question2__ - the full text of each question
 - __is_duplicate__ - the target variable, set to 1 if question1 and question2 have essentially the same meaning, and 0 otherwise.
+
+## Approach
+
+- Importing Dependencies
+- Reading and Understanding Data
+- Tokenization
+- Tweaking Stepwords
+- Removal of Stepwords and punctuation
+- Lemmatization
+- Feature Engineering
+- Calculated cosine similarity
+- Scaling
+- Modelling : I. Logistic Regression II.Random Forest III.XGBoost
+- Evalution Metric : Accuracy and Log Loss
+
+## Final Outcome
+
+- Random Forest outperformed all with __Accuracy:93%__ and __Log Loss:2.17__
